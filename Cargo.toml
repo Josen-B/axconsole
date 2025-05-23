@@ -1,0 +1,15 @@
+[package]
+name = "axconsole"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axstd = { git = "https://github.com/arceos-hypervisor/arceos.git", branch = "45-动态plat-make-脚本接口适配", features = [
+    "alloc",
+    "paging",
+    # "fs",
+    "irq",
+    "hv",
+    "multitask",
+    # "sched_rr",
+] }
