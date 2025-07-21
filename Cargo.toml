@@ -1,6 +1,7 @@
 [package]
 name = "axconsole"
-version = "0.2.0"
+version = "0.3.0"
+authors = ["QiaoSen Bai <baiqiaosen2021@163.com>"]
 edition = "2024"
 
 description = "A brief description of your crate"
@@ -9,4 +10,4 @@ repository = "https://github.com/Josen-B/axconsole.git"
 
 
 [dependencies]
-
+log = "0.4"
