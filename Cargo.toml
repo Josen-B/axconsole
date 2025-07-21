@@ -3,13 +3,10 @@ name = "axconsole"
 version = "0.1.0"
 edition = "2024"
 
+description = "A brief description of your crate"
+license = "Apache-2.0 OR MIT" 
+repository = "https://github.com/Josen-B/axconsole.git"
+
+
 [dependencies]
-axstd = { git = "https://github.com/arceos-hypervisor/arceos.git", branch = "45-动态plat-make-脚本接口适配", features = [
-    "alloc",
-    "paging",
-    # "fs",
-    "irq",
-    "hv",
-    "multitask",
-    # "sched_rr",
-] }
+
